@@ -1,0 +1,16 @@
+package: invast/micro-health
+ignore:
+- invast
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: github.com/micro/go-micro
+  subpackages:
+  - client
+  - errors
+  - metadata
+  - server
+- package: github.com/micro/go-plugins
+  subpackages:
+  - registry/kubernetes
