@@ -27,6 +27,7 @@ var (
 )
 
 func main() {
+	fmt.Println("Start")
 	app := cmd.App()
 	app.Flags = append(app.Flags, cli.StringFlag{
 		Name:        "health_address",
