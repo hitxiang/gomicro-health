@@ -1,6 +1,7 @@
 # gomicro-health
 
 ## Get code from https://github.com/micro/kubernetes/blob/master/cmd/health/main.go
+Not to use `client.DefaultClient = gcli.NewClient()`
 
 ```
 GOOS=linux GOARCH=amd64 go build -o health
